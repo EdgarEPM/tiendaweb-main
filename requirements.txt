@@ -1,5 +1,7 @@
-Django>=4.2,<5.0
-djangorestframework>=3.14
-django-cors-headers>=4.2
-django-environ>=0.11
-Pillow>=10.0
+django>=4.2
+gunicorn
+psycopg2-binary
+django-environ
+Pillow
+django-cors-headers
+whitenoise
